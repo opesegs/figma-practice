@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.125rem;
+    margin: 10px 10px 10px 10px;
+    max-width: 1500px;
+    }
+
+    .left-section {
+      width: 400px;
+      margin-right: 20px;
+    }
+    .right-section {
+      flex: 1;
+      
+    }
+  
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 1rem;
+  }
+  li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+  }
+  .nav-toggle {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  .positivus-logo {
+    padding-left: 13px;
+    height: 60px;
+  }
+  .request-button {
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(104, 103, 103);
+    font-family: Space Grotesk;
+    font-size: 20px;
+    border-color: rgb(182, 177, 177);
+    width: 200px;
+    height: 60px;
+  }
+  .navigations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media all and (max-width: 1250px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navigations {
+      display: none;
+    }
+    nav {
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+    li {
+      display: block;
+      padding: 1rem 0;
+    }
+    .nav-toggle {
+      display: block;
+  }
+}
+

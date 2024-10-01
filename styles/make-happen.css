@@ -1,0 +1,30 @@
+.let-make-things-happen {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    margin: 40px;
+    max-width: 1500px;
+    border-radius: 25px;
+    margin-bottom: 190px;
+}
+.right-section-make-happen {
+    padding: 40px;
+}
+.happen-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+.business-growth {
+    font-size: 18px;
+    width: 450px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.proposal-button {
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(38, 38, 49);
+    border: none;
+    color: rgb(243, 243, 243);
+}

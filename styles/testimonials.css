@@ -1,0 +1,67 @@
+.testimonials {
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    max-width: 1500px;
+}
+.testimonials-intro {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: end;
+}
+.testimonials-highlight {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: rgb(189, 235, 117);
+}
+.testimonials-described {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 520px;
+    padding-bottom: 11px;
+}
+.testimonials-section {
+    background-color: rgb(38, 38, 49);
+    border-radius: 25px;
+    height: 540px;
+    overflow: hidden;
+}
+.testimonial-box {
+    display:flex;
+    margin-left: -290px;
+    overflow: hidden;
+    
+}
+.john-smith-testimonial {
+    border: solid;
+    border-color: rgb(189, 235, 117);
+    border-width: 2px;
+    border-radius: 25px;
+    padding: 40px;
+    width: 485px;
+    color: white;
+    font-size: 17.5px;
+}
+.the-testimonials {
+    padding: 40px;
+    display: inline-block;
+}
+.testimonial-name {
+    margin: 0;
+    color: rgb(189, 235, 117);
+    padding-left: 50px;
+}
+.testimonial-position {
+    margin: 0;
+    color: white;
+    padding-left: 50px;
+}
+.testimonial-navigation {
+    margin-top: 100px;
+    margin-left: 400px;
+}

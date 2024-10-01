@@ -1,0 +1,126 @@
+.footer {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    padding-bottom: 40px;
+    max-width: 1500px;
+    background-color: rgb(38, 38, 49);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+    }
+
+.left-section-footer {
+    width: 150px;
+    }
+.middle-section-footer {
+    flex: 1; 
+      }
+.right-section-footer {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    }
+  
+
+.footer-li {
+    font-size: 18px;
+    text-decoration: underline;
+    color: white;
+  }
+  .positivus-logo-footer {
+    height: 30px;
+  }
+  .footer-navigations {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
+    color: white;
+  }
+  .contact-highlight-footer {
+    display: block;
+    width: 110px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: rgb(189, 235, 117);
+  }
+.footer-info {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.footer-info::before {
+    content: '';
+    display: block;
+    width: 1150px;
+    height: 1.5px;
+    background-color: white;
+    position: absolute;
+    bottom: -7%;
+}
+.footer-email {
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+.footer-phone {
+    font-size: 21px;
+    margin-bottom: 30px;
+    color: white;
+}
+.footer-address {
+    font-size: 21px;
+    margin:0;
+    color: white;
+}
+.footer-address-contd {
+    font-size: 21px;
+    margin:0;
+    color: white;
+}
+.footer-subcribe {
+    background-color: rgba(145, 145, 145, 0.219);
+    border-radius: 20px;
+    width: 620px;
+}
+.subscribe-email {
+    margin-top: 80px;
+    margin-left: 40px;
+    padding: 25px 170px 25px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(100, 99, 99, 0.651);
+    border-color: white;
+    box-shadow: none;
+}
+.subscribe-news {
+    margin-left: 20px;
+    padding: 25px 60px 25px 25px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.footer-year {
+    margin-left: 40px;
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+}
+.privacy-policy {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: underline;
+}
